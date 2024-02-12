@@ -5,5 +5,13 @@ All the data are fetched through pokeapi.co. The decition of the winner is based
 The repo contains also dockerfile 
 These files define a  Docker setup for the application. 
 
-# Docker container using docker-compose up --build. 
-# Make sure you have Docker installed on your system.
+Navigate to the cloned folder
+
+# Docker container using the next command:
+docker  build .
+# Then to see the image that had been build run the following command:
+docker images
+# This would produce the ID of the image. And last step
+docekr run -it (the image id)
+
+
