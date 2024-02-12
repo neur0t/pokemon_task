@@ -12,6 +12,6 @@ docker  build .
 # Then to see the image that had been build run the following command:
 docker images
 # This would produce the ID of the image. And last step
-docekr run -it (the image id)
+docker run -it (the image id)
 
 
